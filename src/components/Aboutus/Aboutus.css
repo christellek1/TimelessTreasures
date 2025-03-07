@@ -1,0 +1,126 @@
+.about-us {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px 0px;
+    line-height: 1.6;
+    padding-top: 50px;
+  
+  }
+  
+  .about-us h1 {
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    color: white;
+    margin-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .about-us p {
+    margin: 10px 0;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+
+  }
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px; 
+    max-width: 400px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .newsletter-form label {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #C5A580; 
+    text-align: center; 
+  }
+  
+  .newsletter-form input {
+    padding: 10px 0; 
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: none; 
+    border-bottom: 2px solid #ddd; 
+    width: 100%; 
+    transition: border-bottom 0.3s ease;
+    outline: none; 
+  }
+  
+  .newsletter-form input:focus {
+    border-bottom: 2px solid #C5A580; 
+    box-shadow: none; 
+  }
+  
+  .newsletter-form button {
+    padding: 12px 24px; 
+    font-size: 16px;
+    color: #fff;
+    background-color: #C5A580; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #C5A580; 
+    transform: translateY(-2px); 
+  }
+  
+  .subscribe-message {
+    color: #C5A580; 
+    margin-top: 15px;
+    font-size: 0.9em; 
+    text-align: center; 
+  }
+
+  body{
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .about-us h2 {
+        font-size: 1.5em; 
+    }
+    .about-us p {
+        font-size: 1em; 
+    }
+    .newsletter-form button {
+        padding: 10px 20px; 
+        font-size: 1em; 
+    }
+}
+
+@media (max-width: 480px) {
+    .about-us h2 {
+        font-size: 1.2em; 
+    }
+    .about-us p {
+        font-size: 0.9em;
+    }
+    .newsletter-form {
+        padding: 15px; 
+    }
+    .newsletter-form input {
+        font-size: 14px; }
+
+    .newsletter-form button {
+        font-size: 14px; 
+        padding: 10px 15px; 
+    }
+    .subscribe-message {
+        font-size: 0.8em;
+    }
+}
